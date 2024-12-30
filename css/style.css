@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    background-color: #e2e2e2;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card__answer {
+    width: 95vw;
+    display: none;
+}
+
+.card__button-question {
+    display: none;
+}
